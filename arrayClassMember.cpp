@@ -20,7 +20,7 @@ public:
     }
     void push(int var) //put number on stack
     {
-        st[++top] = var;
+        st[++top] = var; //Good example of adding before using the variable
     }
     int pop() //take number off stack
     {
